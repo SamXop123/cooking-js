@@ -1,1 +1,75 @@
+body {
+    background-image: url('/Media/aesthetic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    padding: 20px;
+    background-image: url('/Media/download.jpeg');
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.heading {
+    color: white;
+    font-family: Helvetica;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(216, 216, 216);
+    text-decoration-thickness: 2px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.image {
+    position: relative;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    margin: 5px;
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 15px;
+}
+
+.text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: -10px;
+}
+
+.image .capsule {
+    position: absolute;
+    bottom: 4px;
+    z-index: 10;
+    right: 5px;
+    background: #242020;
+    opacity: 0.9;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+}
